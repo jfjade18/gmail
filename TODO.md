@@ -1,6 +1,7 @@
 # TODO
 
 * Specs for xoauth 
+* Specs for xoauth2
 * Specs for message operations
 * Specs for filters in mailbox
 * Specs for current [Gmail IMAP extensions](http://code.google.com/apis/gmail/imap/)

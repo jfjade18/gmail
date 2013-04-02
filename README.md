@@ -106,6 +106,15 @@ method. It's very simple:
 For more information check out the [gmail_xoauth](https://github.com/nfo/gmail_xoauth)
 gem from Nicolas Fouché.
 
+### XOAuth2 authentication
+
+Authenticate with your Gmail account using XOAuth2 method. It's very simple:
+
+    gmail = Gmail.connect(:xoauth2, "email@domain.com", 'ACCESS_TOKEN')
+    
+For more information check out the [gmail_xoauth](https://github.com/nfo/gmail_xoauth)
+gem from Nicolas Fouché.
+
 ### Counting and gathering emails
     
 Get counts for messages in the inbox:
